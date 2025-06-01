@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Harouzie (nếu là thư mục tự tạo hoặc tool)
+harouzie/
+
+# Training runs, logs, checkpoints
+runs/
+logs/
+checkpoints/
+
+# VSCode settings (nếu có)
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+*.dll
+
+# MacOS files
+.DS_Store
